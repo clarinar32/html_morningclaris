@@ -1,0 +1,52 @@
+p{
+  color: #e040dd;
+  font-family: Dialog;
+  font-size: 18px;
+}
+h1{
+  background-color: #b3d4fc;
+  alignment: left;
+}
+button{
+  color: red;
+  padding: 15px;
+  font-size: 16px;
+  background-color: blue;
+  border: 0;
+  text-align:center;
+  margin: fill;
+
+}
+td,th{border: 2px solid cornflowerblue;
+font-family: "DejaVu Sans";
+  padding: 10px;
+  text-align: end;
+  color: gold;
+  border-radius: 10px;
+background-color: black;
+  font-style: revert;
+
+}
+
+  table{width: 90%;
+    border-collapse: collapse;
+  margin: 10px}
+  ul{color: #e040dd;
+    font-family: Dialog;
+    text-align: left;
+    font-style: revert;
+    flex-direction: revert;
+    font-stretch: expanded;
+  }
+  ol{color: darkred;
+    text-align: left;
+    font-family: aakar;
+    flex-direction: column;
+    background-color: #cccccc;
+
+  }
+
+li{
+  list-style-position: inside;
+}
+

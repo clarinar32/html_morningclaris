@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    h2{
+      color: #b3d4fc;
+      border: black solid;
+      padding: 10px;
+    }
+    label{
+      color: #404de0;
+      font-size: large;
+      alignment: center;
+
+    }
+    label,input{
+      alignment:center;
+    }
+    label:hover{
+      color: #404de0;
+    }
+    button{
+      background-color: red;
+      color: #404de0;
+      alignment: bottom;
+    }
+    form{
+      border: seagreen solid;
+      padding: 10px;
+
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>forms</title>
+</head>
+<body style="background-color: #b3d4fc">
+<h2 style="background-color: darkcyan ">Student registration form</h2>
+<form action="iframe.html" method="post" style="float: left">
+  <label for="fname">Full name</label>
+  <input type="text"id="fname"placeholder="Enter your name"><br>
+  <label for="email address">email address</label>
+  <input type="email"id="email address"placeholder="enter your email"><br>
+  <label for="simu">Phone number</label>
+  <input type="text"id="simu"placeholder="enter your phone number"><br>
+  <label for="dob">Date of birth</label>
+  <input type="date"id="dob"><br>
+  <label for="male">male</label>
+  <input type="radio"id="male"name="gender"><br>
+  <label for="female">female</label>
+  <input type="radio"id="female" name="gender"><br>
+  <label for="courses">Course taken</label>
+  <select name="course" id="courses">
+    <option value="java script">java script</option>
+    <option value="python">python</option>
+    <option value="full stack software development">full stack software development</option>
+    <option value="android">android</option>
+    <option value="soft ware engineering"> soft ware engineering</option>
+    <option value="data science">data science</option>
+    <option value="web design">web design</option>
+  </select>
+  <label for="image">upload picture</label>
+  <input type="file"id="image"><br>
+  <label for="password">Password</label>
+  <input type="password"id="password"><br>
+  <input type="submit"value="Register here!!!"><br>
+</form>
+<br>
+<button type="button" onclick="alert('Safari Lab Morning Class')" style="alignment: bottom " > Bonyeza</button>
+
+</body>
+</html>
